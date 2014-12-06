@@ -22,6 +22,17 @@ Because all of our gestures are static, 25 frames seemed like a good amount of d
 The Kinect does not always produce good data; on occasion, the skeleton will appear ``jittery." To help rectify this, we wait 200 milliseconds between frames. This reduces some of that jitter, which important for our training set in particular. It also allows the program operator to quickly browse over some of the incoming data to ensure that it appears to be meaningful.
 
 \subsection{Production of Models For Use With LIBSVM}
+The second program processed the raw data that was read in from the kinect using a simple star skeleton approach. The processed data was then read into LIBSVM to produce a model. This model could then be used to predict gestures.
+
+To process the data for LIBSVM we had to first calculate the angles and distances between the center reference point and each of the five points on the star skeleton. After calculating the distance and angles, we stored the data into histograms made up of a set number of bins.
+
+\begin{figure}[h]
+\caption{A portion of the processed data file.}
+\centering
+\includegraphics[width=\linewidth]{processed_data}
+\end{figure}
+
+After the data was processed it was stored in a file. This file was then read directly into LIBSVM to produce the model for our gestures. 
 
 \subsection{Gesture Matching}
 \end{document}
