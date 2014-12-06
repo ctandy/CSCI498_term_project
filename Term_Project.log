@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.1)  5 DEC 2014 17:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.1)  5 DEC 2014 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -691,12 +691,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) (./Experiments.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./images/raw_data.png>] <images/scale.png, id=12, 481.8pt x 361.35pt>
-File: images/scale.png Graphic file (type png)
+ <./images/raw_data.png>]
+<images/confusion_matrix.png, id=12, 372.39125pt x 573.14125pt>
+File: images/confusion_matrix.png Graphic file (type png)
 
-<use images/scale.png>
-Package pdftex.def Info: images/scale.png used on input line 19.
+<use images/confusion_matrix.png>
+Package pdftex.def Info: images/confusion_matrix.png used on input line 21.
+(pdftex.def)             Requested size: 252.0pt x 387.85938pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/scale.png, id=13, 481.8pt x 361.35pt>
+File: images/scale.png Graphic file (type png)
+ <use images/scale.png>
+Package pdftex.def Info: images/scale.png used on input line 29.
 (pdftex.def)             Requested size: 252.0pt x 189.00032pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 ) (./Conclusion.tex)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 30.
@@ -716,12 +730,14 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2 <./images/processed_data.png> <./images/scale.png>] (./Term_Project.aux) ) 
+[2 <./images/processed_data.png>] [3
+
+ <./images/confusion_matrix.png> <./images/scale.png>] (./Term_Project.aux) ) 
 Here is how much of TeX's memory you used:
- 4544 strings out of 494985
- 70359 string characters out of 6180357
+ 4549 strings out of 494985
+ 70506 string characters out of 6180357
  133400 words of memory out of 5000000
- 7644 multiletter control sequences out of 15000+600000
+ 7648 multiletter control sequences out of 15000+600000
  34714 words of font info for 68 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  67i,8n,38p,1276b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -731,10 +747,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Term_Project.pdf (2 pages, 133900 bytes).
+Output written on Term_Project.pdf (3 pages, 143664 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
