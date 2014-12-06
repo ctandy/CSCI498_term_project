@@ -5,5 +5,9 @@
 \begin{document}
 
 \section{Experiments}
- 
+To build a training set, the three of us each performed all seven gestures three times. In our testing set, we all performed each gesture only once. While we believed at the time that this would be sufficient, as we are all of very different builds, it actually proved to be insufficient, as we will explain later.
+
+We performed these gestures while the data acquisition program was running, allowing us to construct primitive data files. We then fed these data files into the second program, the formatter, to produce a model that could be used with libSVM. In our final product, this provided an accuracy of about 87\%.
+
+We did encounter some difficulty in acquiring this data. In some of our initial trials, while we were in proper range for the Kinect to read our seketons in a neutral position, our hands and arms would be out of the frame when raised. Also, sometimes the Kinect would simply not detect our forms, and we would have to redo the experiment.
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.1)  5 DEC 2014 17:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.1)  5 DEC 2014 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -455,22 +455,24 @@ Before submitting the final camera ready copy, remember to:
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/raw_data.png> <./
-images/processed_data.png>] (./Approach.aux) ) 
+images/processed_data.png>] [2
+
+] (./Approach.aux) ) 
 Here is how much of TeX's memory you used:
  2759 strings out of 494985
  41687 string characters out of 6180357
- 103829 words of memory out of 5000000
+ 105829 words of memory out of 5000000
  5956 multiletter control sequences out of 15000+600000
  27619 words of font info for 55 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 37i,5n,23p,667b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fo
-nts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Approach.pdf (1 page, 98800 bytes).
+ 37i,5n,23p,1255b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
+</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Approach.pdf (2 pages, 100394 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 22 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
