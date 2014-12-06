@@ -1,6 +1,8 @@
 \documentclass[11pt,conference]{IEEEtran}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
 
 \begin{document}
 
@@ -9,5 +11,13 @@ To build a training set, the three of us each performed all seven gestures three
 
 We performed these gestures while the data acquisition program was running, allowing us to construct primitive data files. We then fed these data files into the second program, the formatter, to produce a model that could be used with libSVM. In our final product, this provided an accuracy of about 87\%.
 
-We did encounter some difficulty in acquiring this data. In some of our initial trials, while we were in proper range for the Kinect to read our seketons in a neutral position, our hands and arms would be out of the frame when raised. Also, sometimes the Kinect would simply not detect our forms, and we would have to redo the experiment.
+In order to get the accuracy of our gesture detection, we obtained our training and testing sets produced by the second program. We then used the easy.py program in libSVM to read these files and obtain the accuracy and the optimal C and gamma values. These values were found to be 8192.0 and 0.03125 respectively. To further increase our accuracy we experimented with different numbers of bins in the histograms from the second program. We found that 11 bins gave us optimal results.
+
+\begin{figure}[h]
+\caption{graph of the grid search}
+\centering
+\includegraphics[width=\linewidth]{scale}
+\end{figure}
+
+We did encounter some difficulty in acquiring this data. In some of our initial trials, while we were in proper range for the Kinect to read our skeletons in a neutral position, our hands and arms would be out of the frame when raised. Also, sometimes the Kinect would simply not detect our forms, and we would have to redo the experiment.
 \end{document}
